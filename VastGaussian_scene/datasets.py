@@ -112,6 +112,7 @@ class PartitionScene:
         self.model_path = args.model_path
         self.gaussians = gaussians
         self.train_cameras = partition_data[0]
+        self.test_cameras = partition_data[0]  #To run full iterations 30000           
         self.partition_id = partition_id
         self.cameras_extent = cameras_extent
 
